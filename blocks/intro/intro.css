@@ -5,5 +5,7 @@
 @import url(./__span-accent/intro__span-accent.css);
 
 .intro {
-
+    padding-top: 92px;
+    max-width: 984px;
+    margin: auto;
 }
