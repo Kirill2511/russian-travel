@@ -23,17 +23,15 @@
 @media screen and (max-width: 768px) {
   .cover__subtitle {
     margin-top: 0;
-    margin-bottom: 40px;
+    top: 74%;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;
-    line-height: 17px;
-    max-width: 250px;
-    margin-top: 7px;
-    margin-bottom: 28px;
-    min-height: 20%;
+    line-height: 16px;
+    margin-top: 0;
+    max-width: 270px;
   }
 }

@@ -9,7 +9,39 @@
 @import url(./__paragraph/places__paragraph.css);
 
 .places {
-    max-width: 984px;
-    padding-top: 92px;
-    margin: 0 auto;
+  max-width: 984px;
+  padding-top: 92px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .places {
+    padding-right: 148px;
+    padding-left: 148px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding-top: 64px;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }

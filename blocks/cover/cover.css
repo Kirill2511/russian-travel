@@ -8,3 +8,14 @@
     padding-top: 92px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding-top: 88px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover {
+        padding-top: 64px;
+    }
+}

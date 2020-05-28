@@ -3,3 +3,9 @@
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 320px) {
+    .header__lang {
+        font-size: 1.5em;
+    }
+}

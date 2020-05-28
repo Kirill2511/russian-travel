@@ -1,5 +1,11 @@
 .places__website {
-    flex: 1;
-    align-self: flex-end;
-    padding-bottom: 48px;
+  flex: 1;
+  align-self: flex-end;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 320px) {
+  .places__website {
+    display: none;
+  }
 }

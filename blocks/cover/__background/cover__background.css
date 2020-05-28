@@ -10,21 +10,3 @@
 .cover__background:hover {
   opacity: 0.3;
 }
-
-@media screen and (max-width: 1280px) {
-  .cover__cover-bg {
-    height: 594px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__cover-bg {
-    height: 500px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .cover__cover-bg {
-    height: calc(72.5vw); /* 272px */
-  }
-}
