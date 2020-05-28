@@ -1,0 +1,8 @@
+.places__title {
+    font-size: 6em;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.2;
+    flex-basis: 460px;
+    margin: 0 40px 48px 0;
+}

@@ -1,0 +1,15 @@
+@import url(./__list/places__list.css);
+@import url(./__item/places__item.css);
+@import url(./__title/places__title.css);
+@import url(./__image/places__image.css);
+@import url(./__website/places__website.css);
+@import url(./__url-heading/places__url-heading.css);
+@import url(./__link/places__link.css);
+@import url(./__paragraphs/places__paragraphs.css);
+@import url(./__paragraph/places__paragraph.css);
+
+.places {
+    max-width: 984px;
+    padding-top: 92px;
+    margin: 0 auto;
+}

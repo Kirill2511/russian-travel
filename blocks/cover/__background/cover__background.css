@@ -1,0 +1,10 @@
+.cover__background {
+    margin: auto;
+    background: #2A2C2F;
+    opacity: 0.8;
+    transition: opacity 1s ease-in-out;
+}
+
+.cover__background:hover {
+    opacity: 0.3;
+}

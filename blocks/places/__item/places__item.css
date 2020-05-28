@@ -1,0 +1,6 @@
+.places__item {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 80px;
+}
