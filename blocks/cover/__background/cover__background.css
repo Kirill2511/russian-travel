@@ -1,10 +1,30 @@
 .cover__background {
-    margin: auto;
-    background: #2A2C2F;
-    opacity: 0.8;
-    transition: opacity 1s ease-in-out;
+  background-size: contain;
+  margin: auto;
+  background: #2A2C2F no-repeat center;
+  opacity: 0.8;
+  transition: opacity 1s ease-in-out;
+  width: 100%;
 }
 
 .cover__background:hover {
-    opacity: 0.3;
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__cover-bg {
+    height: 594px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__cover-bg {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__cover-bg {
+    height: calc(72.5vw); /* 272px */
+  }
 }
