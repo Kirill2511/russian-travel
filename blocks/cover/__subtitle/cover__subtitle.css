@@ -9,18 +9,6 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    top: 66%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    top: 71%;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .cover__subtitle {
     top: 77%;
