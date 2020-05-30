@@ -1,7 +1,7 @@
 .lead__title {
   font-size: 8em;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 1.05;
   max-width: 780px;
   margin: 0 auto;
@@ -12,7 +12,6 @@
     max-width: 288px;
     font-size: 3.3em;
     font-style: normal;
-    font-weight: bold;
     line-height: 1.12;
   }
 }

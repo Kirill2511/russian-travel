@@ -1,16 +1,11 @@
 .cover__subtitle {
-  display: flex;
-  font-size: 1.5em;
-  font-style: normal;
   font-weight: normal;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 22px;
   text-align: center;
-  position: absolute;
-  top: 64%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  color: #FFFFFF;
   max-width: 360px;
+  margin: 32px 0 0;
   z-index: 1;
 }
 
