@@ -4,7 +4,7 @@
   height: auto;
 }
 
-@media (min-width: 321px) and (max-width: 720px) {
+@media screen and (min-width: 321px) and (max-width: 720px) {
   .places__image {
     max-width: 700px;
     width: 100%;

@@ -28,13 +28,13 @@
   opacity: 0.8;
 }
 
-@media (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .cover__overlay {
     max-height: 740px;
   }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover__overlay {
     height: 62.5vw;
   }
