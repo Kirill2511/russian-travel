@@ -1,8 +1,7 @@
 .places__paragraph {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 167%;
     margin: auto auto 24px;
 }
 

@@ -1,17 +1,25 @@
 .footer__list-links {
-    margin-right: 18px;
-    list-style: none;
+  margin-right: 18px;
+  list-style: none;
+  position: relative;
 }
 
 .footer__list-links:last-child {
-    margin: 0;
+  margin: 0;
 }
 
-@media screen and (max-width: 425px) {
-    .footer__list-links {
-        margin-bottom: 32px;
-    }
-    .footer__list-links:last-child {
-        margin-right: 50px;
-    }
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .footer__list:last-child {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .footer__list-links {
+    margin-bottom: 32px;
+  }
+
+  .footer__list-links:last-child {
+    margin-right: 50px;
+  }
 }
