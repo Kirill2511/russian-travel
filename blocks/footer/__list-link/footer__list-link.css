@@ -8,7 +8,7 @@
   transition: opacity 0.4s linear;
 }
 
-.header__lang:hover {
+.footer__list-link:hover {
   opacity: 0.6;
 }
 
