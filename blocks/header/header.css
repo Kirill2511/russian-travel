@@ -4,31 +4,24 @@
 @import url(./__lang/_active/header__lang_active.css);
 
 .header {
-    max-width: 1184px;
-    display: flex;
-    justify-content: space-between;
-    margin: 28px auto 0;
+  max-width: 1184px;
+  max-height: 52px;
+  margin: 28px 48px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 1280px) {
-    .header {
-        margin-right: 48px;
-        margin-left: 48px;
-        margin-top: 36px;
-    }
+@media (max-width: 768px) {
+  .header {
+    padding: 28px 24px 0;
+    margin: 0 0 56px 0;
+  }
 }
 
-@media screen and (max-width: 768px) {
-    .header {
-        margin-right: 24px;
-        margin-left: 24px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .header {
-        margin-right: 16px;
-        margin-left: 16px;
-        margin-top: 16px;
-    }
+@media (max-width: 320px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 0;
+    margin: 0 0 48px 0;
+  }
 }
