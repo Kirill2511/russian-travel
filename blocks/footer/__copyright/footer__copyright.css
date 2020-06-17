@@ -8,10 +8,7 @@
 
 @media screen and (min-width: 321px) and (max-width: 767px){
   .footer__copyright{
-    margin-top: 16px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 16px;
+    margin: 16px auto;
     padding-right: 0;
   }
 }

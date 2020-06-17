@@ -15,7 +15,7 @@
     font-size: calc(8vw);
     line-height: 110%;
     margin: 0 auto;
-    max-width: calc((288 / 500) * 100%);
+    max-width: 60%;
   }
 }
 
@@ -23,7 +23,7 @@
   .cover__title {
     font-size: calc(8vw);
     line-height: 110%;
-    max-width: calc((288 / 500) * 100%);
+    max-width: 60%;
     padding-top: 0;
   }
 }

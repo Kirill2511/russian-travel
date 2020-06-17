@@ -11,7 +11,7 @@
   .cover__subtitle {
     font-size: calc(3vw);
     line-height: 120%;
-    max-width: calc((288 / 481) * 100%);
+    max-width: 60%;
     margin-top: 16px;
   }
 }
@@ -20,7 +20,7 @@
   .cover__subtitle {
     font-size: calc(3vw);
     line-height: 120%;
-    max-width: calc((288 / 481) * 100%);
+    max-width: 60%;
     margin-top: 16px;
   }
 }
