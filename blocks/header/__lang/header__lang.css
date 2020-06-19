@@ -6,10 +6,12 @@
   color: white;
   text-decoration: none;
   transition: opacity 0.4s linear;
+  margin-left: 18px;
+
 }
 
 .header__lang:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 
